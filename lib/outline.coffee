@@ -47,7 +47,7 @@ class PDFOutline
 
         # The outline dictionary
         @dictionary = @document.ref
-            Title:  PDFObject.s @title, @unicode  # need to specify if unicode
+            Title:  PDFObject @title, @unicode  # need to specify if unicode
             Parent: parent      # dictionary
             Dest:   destination
 

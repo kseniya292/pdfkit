@@ -1,5 +1,5 @@
 {
-  "name": "pdfkit",
+  "name": "pdfkit-outline",
   "description": "A PDF generation library for Node.js",
   "keywords": [
     "pdf",
@@ -40,7 +40,7 @@
     "png-js": ">=0.1.0"
   },
   "scripts": {
-    "prepublish": "make js",
+    "prepare": "make js",
     "postpublish": "make clean"
   },
   "main": "js/document",
